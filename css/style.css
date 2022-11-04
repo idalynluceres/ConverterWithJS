@@ -1,0 +1,154 @@
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script&family=Poppins&display=swap');
+
+body 
+{
+    margin: 0;
+    padding: 0;
+    height: 100vh;
+    background: url("https://i.pinimg.com/originals/96/02/aa/9602aac5ebbb3c0ae1e2d262d46f9c17.gif");
+    background-position: center;
+    background-size: cover;
+    position: relative;
+}
+/* HERO */
+.banner 
+{
+    background-color: #ffddd2;
+    text-align: center;
+    height: 30vh;
+    background-image: linear-gradient(rgba(4,9,30,0.7), rgba(4,9,30,0.7)), url('https://img.freepik.com/free-vector/green-sand-paper_53876-86281.jpg?w=2000');
+    background-position: center;
+    background-size: cover;
+    position: relative;
+}
+#icon img
+{
+    width: 120px;
+    border-radius: 60px;
+    margin-top: 25px;
+}
+#brand 
+{
+    font-family: 'Poppins', sans-serif;
+    font-size: 25px;
+    text-decoration: none;
+    font-weight: bold;
+    color: white;
+}
+#brand:hover 
+{
+    color: rgba(71, 126, 232, 0.7);
+    outline-color: rgba(71, 126, 232, 0);
+    outline-offset: 300px;
+}
+/* CONTENT */
+form 
+{
+    font-family: 'Poppins', sans-serif;
+    text-align: center;
+    margin: auto;
+    height: 55vh;
+    border: 2px solid black;
+    width: 50%;
+    margin-top: 200px;
+    margin-bottom: 20px;
+    border-radius: 5px;
+    background-color: white;
+
+    display: block;
+    align-items: center;
+    justify-content: center;
+}
+h1 
+{
+    font-family: 'Dancing Script', cursive;
+    text-align: center;
+    background-image: linear-gradient(rgba(4,9,30,0.7), rgba(4,9,30,0.7)), url('https://img.freepik.com/free-vector/green-sand-paper_53876-86281.jpg?w=2000');
+    color: white;
+    padding: 10px;
+}
+form :where(label, input, select, button)
+{
+    width: 70%;
+    outline: none;
+    border: none;
+    border-radius: 5px;
+}
+form label
+{
+    font-size: 18px;
+    margin-bottom: 5px;
+    margin-top: 30px;
+}
+form input
+{
+    height: 50px;
+    font-size: 17px;
+    padding: 0 15px;
+    border: 1px solid #999;
+    margin-bottom: 30px;
+}
+form input:focus
+{
+    padding: 0 14px;
+    border: 2px solid rgb(4, 86, 4);
+}
+form .drop-list
+{
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+form img
+{
+    width: 100px;
+    padding: 14px;
+}
+.select-box select
+{
+    width: auto;
+}
+select
+{
+    height: 50px;
+    font-size: 17px;
+    padding: 0 15px;
+    border: 1px solid #999;
+    margin-right: 10px;
+}
+select:focus
+{
+    padding: 0 14px;
+    border: 2px solid rgb(4, 86, 4);
+}
+.drop-list .icon 
+{
+    font-size: 22px;
+    cursor: pointer;
+    margin-top: 40px;
+}
+form .exchange-rate
+{
+    font-size: 17px;
+    margin: 20px 0 30px;
+}
+form button
+{
+    height: 52px;
+    color: #fff;
+    font-size: 17px;
+    cursor: pointer;
+    margin-bottom: 15px;
+    background-image: linear-gradient(rgba(4,9,30,0.7), rgba(4,9,30,0.7)), url('https://img.freepik.com/free-vector/green-sand-paper_53876-86281.jpg?w=2000');
+}
+/* FOOTER */
+footer 
+{
+    background-image: linear-gradient(rgba(4,9,30,0.7), rgba(4,9,30,0.7)), url('https://img.freepik.com/free-vector/green-sand-paper_53876-86281.jpg?w=2000');
+    margin-top: 200px;
+}
+footer h6 
+{
+    color: white;
+    font-size: 13px;
+}
