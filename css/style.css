@@ -37,8 +37,8 @@ body
 }
 #brand:hover 
 {
-    color: rgba(71, 126, 232, 0.7);
-    outline-color: rgba(71, 126, 232, 0);
+    color: black;
+    outline-color: rgb(4, 86, 4);
     outline-offset: 300px;
 }
 /* CONTENT */
@@ -54,7 +54,6 @@ form
     margin-bottom: 20px;
     border-radius: 5px;
     background-color: white;
-
     display: block;
     align-items: center;
     justify-content: center;
@@ -151,4 +150,22 @@ footer h6
 {
     color: white;
     font-size: 13px;
+}
+
+@media (max-width: 540px) 
+{
+    .banner
+    {
+        height: 30vh;
+    }
+    form
+    {
+        width: 90%;
+        margin-top: 100px;
+        margin-bottom: 5px;
+    }
+    footer
+    {
+        margin-top: 100px;
+    }
 }
